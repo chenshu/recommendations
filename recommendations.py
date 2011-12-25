@@ -94,7 +94,7 @@ def sim_cosine(prefs, person1, person2):
 
     return pSum / (sqrt(sum1Sq) * sqrt(sum2Sq))
 
-# Jaccard系数
+# Jaccard Index相关度
 def sim_jaccard(prefs, person1, person2):
     si = {}
     # 找到共同的元素
