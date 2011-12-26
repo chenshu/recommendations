@@ -33,7 +33,7 @@ def sim_distance(prefs, person1, person2):
     if len(si) == 0: return 0
 
     # 计算所有元素的差值平方和
-    #sum_of_squares = sum([pow(prefs[person1][item] - prefs[person2][item], 2) for item in prefs[person1] if item in prefs[person2]])
+    # sum_of_squares = sum([pow(prefs[person1][item] - prefs[person2][item], 2) for item in prefs[person1] if item in prefs[person2]])
     sum_of_squares = sum([pow(prefs[person1][item] - prefs[person2][item], 2) for item in si])
 
     # 欧几里德相关度
